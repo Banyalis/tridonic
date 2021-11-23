@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="DESKTOP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-PRODUCTS-/-1.0-LED-DRIVERS---3-FILTERS" transform="translate(-910.000000, -820.000000)">
+            <g id="Filters" transform="translate(740.000000, 80.000000)">
+                <g id="→-Hover" transform="translate(50.000000, 700.000000)">
+                    <g id="Group" transform="translate(120.000000, 40.000000)">
+                        <circle id="Oval" stroke="#372A86" fill="#372A86" cx="10" cy="10" r="9.5"></circle>
+                        <path d="M10.704,12.298 C10.704,12.004 10.802,11.696 11.292,11.192 C11.95,10.52 12.72,9.792 12.72,8.742 C12.72,7.188 11.67,6.264 10.06,6.264 C9.038,6.264 8.072,6.698 7.484,7.314 L7.484,8.798 C8.086,8.196 8.94,7.608 9.976,7.608 C10.844,7.608 11.292,8.014 11.292,8.756 C11.292,9.498 10.662,9.96 10.186,10.492 C9.57,11.164 9.374,11.528 9.332,12.298 L10.704,12.298 Z M9.962,15.098 C10.494,15.098 10.914,14.678 10.914,14.132 C10.914,13.586 10.494,13.166 9.962,13.166 C9.43,13.166 9.01,13.586 9.01,14.132 C9.01,14.678 9.43,15.098 9.962,15.098 Z" id="?" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

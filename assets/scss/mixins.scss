@@ -1,0 +1,262 @@
+// Breakpoints mixins
+@mixin desktop {
+  @media screen and (min-width: $bp-desktop) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media screen and (min-width: $bp-laptop) and (max-width: ($bp-desktop - 1)) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: $bp-tablet) and (max-width: ($bp-laptop - 1)) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: ($bp-tablet - 1)) {
+    @content;
+  }
+}
+
+// Hover mixins
+@mixin hover {
+  @media (hover: hover) and (pointer: fine) {
+    @content;
+  }
+}
+
+// Texts mixins
+@mixin title {
+  font-size: 64px;
+  line-height: (60 / 64);
+  font-weight: $fw-light;
+  letter-spacing: -2px;
+
+  @include mobile {
+    font-size: 32px;
+    line-height: (20 / 32);
+    letter-spacing: -0.8px;
+  }
+}
+
+@mixin title-small {
+  font-size: 32px;
+  line-height: (40 / 32);
+  font-weight: $fw-normal;
+  letter-spacing: -0.5px;
+
+  @include mobile {
+    font-size: 24px;
+    line-height: (30 / 24);
+    letter-spacing: -0.2px;
+  }
+}
+
+@mixin title-h2 {
+  font-size: 32px;
+  line-height: (40 / 32);
+  font-weight: $fw-normal;
+  letter-spacing: -0.5px;
+  margin: 0;
+
+  @include mobile {
+    font-size: 18px;
+    line-height: (20 / 18);
+    letter-spacing: 0;
+  }
+}
+
+@mixin title-bordered-h2 {
+  @include title-h2;
+  padding-bottom: 12px;
+  position: relative;
+  text-align: center;
+
+  @include mobile {
+    padding-bottom: 17px;
+  }
+
+  &::after {
+    background: currentColor;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 80px;
+    transform: translate(-50%, 0);
+
+    @include mobile {
+      width: 40px;
+    }
+  }
+}
+
+@mixin text {
+  font-size: 24px;
+  line-height: (30 / 24);
+  font-weight: $fw-normal;
+  letter-spacing: -0.2px;
+
+  @include mobile {
+    font-size: 18px;
+    line-height: (30 / 18);
+    letter-spacing: 0;
+  }
+}
+
+@mixin text-small {
+  font-size: 18px;
+  line-height: (30 / 18);
+  font-weight: $fw-normal;
+  letter-spacing: 0;
+}
+
+@mixin text-nav {
+  font-size: 16px;
+  line-height: (20 / 16);
+  font-weight: $fw-medium;
+  letter-spacing: 0;
+}
+
+@mixin text-light {
+  font-size: 14px;
+  line-height: (20 / 14);
+  font-weight: $fw-normal;
+  letter-spacing: 0;
+
+  @include mobile {
+    font-size: 10px;
+    line-height: (12 / 10);
+  }
+}
+
+@mixin text-light-same-mobile {
+  font-size: 14px;
+  line-height: (20 / 14);
+  font-weight: $fw-normal;
+  letter-spacing: 0;
+}
+
+@mixin text-light-medium {
+  @include text-light;
+
+  font-weight: $fw-medium;
+}
+
+@mixin text-light-same-mobile-medium {
+  @include text-light-same-mobile;
+
+  font-weight: $fw-medium;
+}
+
+@mixin text-thin {
+  font-size: 12px;
+  line-height: (20 / 12);
+  font-weight: $fw-normal;
+  letter-spacing: 0;
+}
+
+@mixin text-label {
+  font-size: 11px;
+  font-weight: normal;
+  letter-spacing: 0.4px;
+  line-height: (20 / 11);
+}
+
+@mixin text-tag {
+  font-size: 11px;
+  line-height: (20 / 11);
+  font-weight: $fw-medium;
+  letter-spacing: 0.39px;
+
+  @include mobile {
+    font-size: 10px;
+    line-height: (10 / 10);
+    letter-spacing: 0.36px;
+  }
+}
+
+// Grid mixins
+@mixin m-aspectRatio($width, $height) {
+  position: relative;
+
+  &:before {
+    display: block;
+    content: '';
+    width: 100%;
+    padding-top: (($height / $width) * 100%);
+  }
+}
+
+@mixin m-absoluteSvg {
+  svg {
+    @include m-absolute100;
+
+    //fix IE, Edge and Safari bugs with ignoring click on painted areas (when listeners set throught delegation)
+    //when svg inserted with use
+    //https://stackoverflow.com/questions/24078524/vg-click-events-not-firing-bubbling-when-using-use-element
+    pointer-events: none;
+  }
+}
+
+@mixin m-objectFit($size: cover, $position: center) {
+  object-fit: $size;
+  object-position: $position;
+}
+
+@mixin m-absoluteObjectFit($size: cover, $position: center) {
+  @include m-absolute100;
+  @include m-objectFit($size, $position);
+}
+
+@mixin m-absolute100 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin m-relative100 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+@mixin button-show-products {
+  display: none;
+
+  @include mobile {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $c-white;
+    @include text-small;
+    background: $c-purple;
+    left: 0;
+    z-index: $z-mobileButtonShowProducts;
+
+    svg {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      transform: translate3d(0, -50%, 0);
+    }
+  }
+}
+
+@mixin u-noList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

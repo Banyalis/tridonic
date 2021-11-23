@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="20px" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon: ZIP</title>
+    <g id="DESKTOP" stroke="none" stroke-width="1" fill-rule="evenodd">
+        <g id="1.-PRODUCTS-/-1.1.2-PRODUCT-FAMILY---4-DRAWERS" transform="translate(-1180.000000, -6790.000000)">
+            <g id="Accordeon---Downloads" transform="translate(140.000000, 6378.000000)">
+                <g id="Expanded" transform="translate(0.000000, 91.000000)">
+                    <g id="Table" transform="translate(0.000000, 111.000000)">
+                        <path d="M1053,226 L1053,228 L1049,228 L1049,230 L1047,230 L1047,228 L1043,228 L1043,226 L1053,226 Z M1056,216 L1056,224 L1040,224 L1040,216 L1056,216 Z M1054,218 L1042,218 L1042,222 L1054,222 L1054,218 Z M1049,210 L1049,212 L1053,212 L1053,214 L1043,214 L1043,212 L1047,212 L1047,210 L1049,210 Z" id="Icon:-ZIP"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

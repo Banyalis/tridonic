@@ -1,0 +1,103 @@
+// Typography
+$family-primary: 'Metric';
+$family-secondary: 'Metric';
+
+// Font-weights
+$fw-thin: 100;
+$fw-ultraLight: 200;
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semiBold: 600;
+$fw-bold: 700;
+$fw-extraBold: 800;
+$fw-black: 900;
+
+// Colors
+$c-white: #fff;
+$c-black: #191919;
+$c-black--bg: #282828;
+$c-tag--yellow: #d3d931;
+$c-tag--red: #d93131;
+$c-tag--gray: #adacb7;
+$c-gray--bg: #fafafa;
+$c-gray: #787685;
+$c-gray--border: #e7e7e7;
+$c-gray--borderOutline: #bfbecb;
+$c-gray-products--border: #e5e5e5;
+$c-gray--light: #bebdc7;
+$c-gray--shadow: #e4e4e4;
+$c-gray--dark: #484755;
+$c-gray--text: #909096;
+$c-gray--divider: #e4e4e4;
+$c-purple: #372a86;
+$c-purple--hovered: #5442c1;
+$c-blue: #29bdff;
+$c-blue--active: #169edb;
+$c-purple--dark: #31257c;
+$c-purple--light: #6b54b9;
+$c-yellow: #d3d931;
+$c-red: #ff2000;
+$c-purple--dimmed: rgba(#1d183b, 0.25);
+$c-filterSliderLine: #c4c4c4;
+$c-bannerHover: #5244a4;
+$c-gray--filters: #bebdc6;
+
+$c-darkBlueFooter: #5b5b64;
+$c-lightBlueFooter: #a09fae;
+$c-footerBorder: rgba($c-white, 0.1);
+
+$c-purpleBgRow: #eae8f9;
+
+// Links
+$link: $c-purple;
+$link-focus-border: $c-purple;
+
+// Border
+$border-default: 1px solid;
+
+// breakpoints values
+$bp-mobile: 320px;
+$bp-tablet: 960px;
+$bp-laptop: 1440px;
+$bp-desktop: 1920px;
+
+// duration values
+$d-hover: 0.2s;
+$d-productShow: 0.1s;
+$d-hiddenItemShow: 0.1s;
+
+// default values
+$v-hover-opacity: 0.7;
+$v-product-item-shadow: 0 4px 20px rgba($c-black, 0.15);
+
+// z-indexes
+$z-navigationMenu: 50;
+$z-header: 40;
+$z-contentDimmedOverlay: 20;
+$z-hiddenLink: 3;
+$z-hiddenSelect: 3;
+$z-mobileCloseCross: 3;
+$z-mobileBackArrow: 3;
+$z-selectFilter: 999;
+$z-eshopPanel: ($z-navigationMenu + 5);
+$z-popup: 30;
+$z-popupBlack: ($z-popup + 6);
+$z-contentDimmedOverlayPopup: ($z-popup + 5);
+$z-contentDimmedOverlayPopupBlack: ($z-popupBlack + 1);
+$z-closePopup: $z-selectFilter;
+$z-tooltip: ($z-contentDimmedOverlayPopupBlack + 5);
+$z-mobileFilters: ($z-popup + 10);
+$z-modalPopup: ($z-popup + 8);
+$z-mobileButtonShowProducts: 5;
+$z-filterSectionClear: 5;
+$z-sliderArrow: 2;
+$z-comparePanel: 25;
+$z-compareOverlay: ($z-comparePanel + 1);
+$z-compareOverlayMobile: ($z-header + 5);
+$z-one: 1;
+$z-bannerImage: $z-one;
+$z-bannerInfo: $z-one;
+$z-filterSelectText: $z-one;
+$z-productItem: $z-one;
+$z-productItemHover: 2;

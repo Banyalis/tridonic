@@ -1,0 +1,534 @@
+{
+  "back": {
+    "description": "Text for pagination button \"Back\"",
+    "text": "Back"
+  },
+  "dataSheet": {
+    "description": "Text for catalog item data sheet link",
+    "text": "Data Sheet"
+  },
+  "next": {
+    "description": "Text for pagination button \"Next\"",
+    "text": "Next"
+  },
+  "paginationCurrentOf": {
+    "description": "Text for pagination mobile text \"1 of 34\"",
+    "text": "of"
+  },
+  "pluralizedArticle": {
+    "description": "Text for count of articles in catalog (singular)",
+    "text": "{ARTICLE_COUNT, plural, one {Article} other {Articles}}"
+  },
+  "sortAz": {
+    "description": "Text for catalog sorting A/Z",
+    "text": "Sort A-Z"
+  },
+  "sortByFlagship": {
+    "description": "Text for catalog sorting by Flagship",
+    "text": "Sort by Flagship"
+  },
+  "sortByNew": {
+    "description": "Text for catalog sorting by new",
+    "text": "Sort by New"
+  },
+  "sortByRelevance": {
+    "description": "Text for catalog sorting by relevance",
+    "text": "Sort by Relevance"
+  },
+  "sortZa": {
+    "description": "Text for catalog sorting Z/A",
+    "text": "Sort Z-A"
+  },
+  "viewGrid": {
+    "description": "Text for catalog switch view to grid",
+    "text": "View as Grid"
+  },
+  "viewList": {
+    "description": "Text for catalog switch view to list",
+    "text": "View as List"
+  },
+  "searchClearText": {
+    "description": "Clear text for mobile search",
+    "text": "Clear"
+  },
+  "searchInputPlaceholder": {
+    "description": "Text for search input placeholder",
+    "text": "Type to search"
+  },
+  "showMoreButton": {
+    "description": "Text for show more / show less button",
+    "text": "Show {IS_EXPANDED, select, true {Less} other {More}}"
+  },
+  "dataSheetDownload": {
+    "description": "Text for data sheet link in popup product/family",
+    "text": "Download Data Sheet"
+  },
+  "visitEshop": {
+    "description": "Text for link on eShop in popup product/family",
+    "text": "Visit eShop"
+  },
+  "setbuilder": {
+    "description": "Text for link on setbuilder of product/family in popup",
+    "text": "Setbuilder"
+  },
+  "ean": {
+    "description": "Text ean for product",
+    "text": "EAN: "
+  },
+  "articleNo": {
+    "description": "Text article no for product",
+    "text": "Article No: "
+  },
+  "pluralizedFilterArticle": {
+    "description": "Text for filter with count of articles in popup family (singular)",
+    "text": "Filter the {ARTICLE_COUNT, plural, one {article} other {articles}}"
+  },
+  "pluralizedFilterArticleText": {
+    "description": "Text after filter with count in articles in family popup",
+    "text": "that make up this product"
+  },
+  "articlesTitleFamilyPopup": {
+    "description": "Text for articles in family popup without filter",
+    "text": "Articles"
+  },
+  "textShow": {
+    "description": "Text 'Show' for show more",
+    "text": "Show"
+  },
+  "textMore": {
+    "description": "Text 'More' for show more",
+    "text": "More"
+  },
+  "textLess": {
+    "description": "Text 'Less' for show less",
+    "text": "Less"
+  },
+  "filtersTitle": {
+    "description": "Title for the products grid filters",
+    "text": "Filter"
+  },
+  "filtersClearAll": {
+    "description": "Clear all filters button",
+    "text": "Clear All"
+  },
+  "filtersResetAll": {
+    "description": "Reset all filters button",
+    "text": "Reset All Filters"
+  },
+  "importAsCSV": {
+    "description": "Text for button of import as CSV",
+    "text": "Import as CSV"
+  },
+  "startWithSetbuilder": {
+    "description": "Text for button of start with setbuilder",
+    "text": "Start with setbuilder"
+  },
+  "startWithCompanionSuite": {
+    "description": "Text for button of start with companionSUITE",
+    "text": "Start with companionSUITE"
+  },
+  "searchByKeywords": {
+    "description": "Text for placeholder of input search by keywords",
+    "text": "Search by keywords"
+  },
+  "approvalMarks": {
+    "description": "Text for approval marks in common data",
+    "text": "Approval marks"
+  },
+  "luminaireTypes": {
+    "description": "Text for luminaire types in common data",
+    "text": "Luminaire types"
+  },
+  "downloadsName": {
+    "description": "Text for name in downloads table",
+    "text": "Document"
+  },
+  "downloadsDate": {
+    "description": "Text for date in downloads table",
+    "text": "Date"
+  },
+  "downloadsInfo": {
+    "description": "Text for info in downloads table",
+    "text": "Type"
+  },
+  "downloadsType": {
+    "description": "Text for type in downloads table",
+    "text": "File"
+  },
+  "downloadsSize": {
+    "description": "Text for size in downloads table",
+    "text": "Size"
+  },
+  "downloadSelected": {
+    "description": "Text for download selected",
+    "text": "Download Selected"
+  },
+  "sortBy": {
+    "description": "Text for sort by select",
+    "text": "Sort by"
+  },
+  "viewAllFaqs": {
+    "description": "Text for view all FAQs",
+    "text": "View All FAQs"
+  },
+  "sameProducts": {
+    "description": "Text for title of 'you may also like'",
+    "text": "You May Also Like"
+  },
+  "references": {
+    "description": "Text for title of references",
+    "text": "References"
+  },
+  "viewedProducts": {
+    "description": "Text for title of recently viewed products",
+    "text": "Recently Viewed Products"
+  },
+  "compareProducts": {
+    "description": "Compare products text for compare panel",
+    "text": "Compare Products"
+  },
+  "compareClearAll": {
+    "description": "Clear all button text for compare panel",
+    "text": "Clear All"
+  },
+  "compareAddAnotherProduct": {
+    "description": "Add another product text for comparer panel",
+    "text": "Add another product to compare"
+  },
+  "compareTitle": {
+    "description": "Title for the compare overlay",
+    "text": "Compare Products"
+  },
+  "compareDescription": {
+    "description": "Description for the compare overlay",
+    "text": "Refer to the data sheets for exact values under certain conditions as typical values are displayed."
+  },
+  "compareDetails": {
+    "description": "Details arrow link for product item in compare overlay",
+    "text": "Details"
+  },
+  "compareShowCommonData": {
+    "description": "Show common data text for compare overlay",
+    "text": "Show Common Data"
+  },
+  "compareHideCommonData": {
+    "description": "Hide common data text for compare overlay",
+    "text": "Hide Common Data"
+  },
+  "titlePhasedOutProduct": {
+    "description": "Title for modal popup of the phased out product",
+    "text": "This product has been phased out and is no longer available."
+  },
+  "titleReplacementProduct": {
+    "description": "Title for replacement of the phased out product",
+    "text": "Replacement"
+  },
+  "titleAlternativeProduct": {
+    "description": "Title for alternative of the phased out product",
+    "text": "Alternative"
+  },
+  "showPhasedOutProduct": {
+    "description": "Title for modal popup of the button show phased out product",
+    "text": "Show Phased Out Product"
+  },
+  "phasedOut": {
+    "description": "Text for phased out",
+    "text": "Phased Out"
+  },
+  "comingTitle": {
+    "description": "Text for coming with date",
+    "text": "Coming"
+  },
+  "comingDescription": {
+    "description": "Text for description coming text",
+    "text": "Leave us your email address and we will let you know as soon as it’s available. Your email will only be used for the purpose of this correspondence."
+  },
+  "yourEmail": {
+    "description": "Text for placeholder of the email input",
+    "text": "Your Email"
+  },
+  "confirmTextSubscribeProduct": {
+    "description": "Text for confirm of the privacy policy of the coming soon product",
+    "text": "I have read and understand the"
+  },
+  "privacyPolicy": {
+    "description": "Text for title of the privacy policy",
+    "text": "Privacy Policy"
+  },
+  "signUpForUpdates": {
+    "description": "Text for button of the sign up for updates",
+    "text": "Sign up for Updates"
+  },
+  "requiredField": {
+    "description": "Text for required field",
+    "text": "This field is mandatory"
+  },
+  "checkData": {
+    "description": "Text for to check data in the field",
+    "text": "Please check this information"
+  },
+  "unsupportedFile": {
+    "description": "Text for to check format file in the field",
+    "text": "Unsupported file format uploaded"
+  },
+  "thanksSubscribeComingSoonProduct": {
+    "description": "Text for submitted subscribe of the coming soon product",
+    "text": "Thanks for your interest in our products, we will notify you as soon as it becomes available."
+  },
+  "enterArticleNumber": {
+    "description": "Label for search form on page Alternatives & Replacements",
+    "text": "Enter 8-digit article number"
+  },
+  "searchAlternatives": {
+    "description": "Text for search button in form on page Alternatives & Replacements",
+    "text": "Search for Alternative"
+  },
+  "titleProjects": {
+    "description": "Text for title of the page Solutions Projects",
+    "text": "Projects"
+  },
+  "allProducts": {
+    "description": "Text for title of All Products",
+    "text": "All Products"
+  },
+  "allLocations": {
+    "description": "Text for title of All Locations",
+    "text": "All Locations"
+  },
+  "textLocation": {
+    "description": "Text for title of Location",
+    "text": "Location"
+  },
+  "textArchitect": {
+    "description": "Text for title of Architect",
+    "text": "Architect"
+  },
+  "textDesign": {
+    "description": "Text for title of Lighting Design",
+    "text": "Lighting Design"
+  },
+  "textLuminaires": {
+    "description": "Text for title of Luminaires",
+    "text": "Luminaires"
+  },
+  "relatedProducts": {
+    "description": "Text for title of Related products",
+    "text": "Related Products"
+  },
+  "moreProjects": {
+    "description": "Text for title of More Projects",
+    "text": "More Projects"
+  },
+  "titleSolutionsProduct": {
+    "description": "Text for title of product solutions",
+    "text": "What do you need a solution for?"
+  },
+  "textAbout": {
+    "description": "Text for button of About product",
+    "text": "About"
+  },
+  "titleCorrespondingProducts": {
+    "description": "Text for title of Corresponding Products",
+    "text": "Corresponding Products"
+  },
+  "titleContactSolutions": {
+    "description": "Text for title of contact of the solution",
+    "text": "Would you prefer to get our support right away?"
+  },
+  "companyProjectsTitle": {
+    "description": "Projects section title on company page",
+    "text": "Dig Deeper"
+  },
+  "companyHistoryTitle": {
+    "description": "History section title on company page",
+    "text": "Milestones"
+  },
+  "companyEmployeeTitle": {
+    "description": "Employee section title on company page",
+    "text": "Management Team"
+  },
+  "companyTeamTitle": {
+    "description": "Team section title on company page",
+    "text": "Vertriebsorganisation"
+  },
+  "companyNewsTitle": {
+    "description": "News section title on company page",
+    "text": "News & Press"
+  },
+  "partnersTitle": {
+    "description": "Title for partners page",
+    "text": "Find a Partner"
+  },
+  "partnersButtonEmail": {
+    "description": "Title for button email",
+    "text": "Email"
+  },
+  "partnersButtonWebsite": {
+    "description": "Title for button website",
+    "text": "Website"
+  },
+  "partnersButtonEshop": {
+    "description": "Title for button eshop",
+    "text": "eShop"
+  },
+  "partnersButtonShow": {
+    "description": "Title for button show",
+    "text": "Show More"
+  },
+  "partnersButtonLess": {
+    "description": "Title for button less",
+    "text": "Show Less"
+  },
+  "partnersTitlePopup": {
+    "description": "Title on partners popup",
+    "text": "Partners"
+  },
+  "titleContactSolutions": {
+    "description": "Text for title of contact of the solution",
+    "text": "Would you prefer to get our support right away?"
+  },
+  "titleNewsPress": {
+    "description": "Text for title of the page about News & Press",
+    "text": "News & Press"
+  },
+  "signUpForNewsletter": {
+    "description": "Text for title of the sign up for newsletter",
+    "text": "Sign up for Newsletter"
+  },
+  "descrNewsletter": {
+    "description": "Text for descr of the sign up for newsletter",
+    "text": "Our product newsletter is published every two months and covers the latest products and other interesting news from Tridonic."
+  },
+  "downloadPressKit": {
+    "description": "Text for title of the download press kit",
+    "text": "Download Press Kit"
+  },
+  "descrDownloadPressKit": {
+    "description": "Text for descr of the download press kit",
+    "text": "We’ve put together a variety of images, high resolution logos, product images and other assets for easy reference."
+  },
+  "textSubscribe": {
+    "description": "Text for button subscribe",
+    "text": "Subscribe"
+  },
+  "textDownload": {
+    "description": "Text for button download",
+    "text": "Download"
+  },
+  "textEmail": {
+    "description": "Text for button Email",
+    "text": "Email"
+  },
+  "pressContact": {
+    "description": "Text for title of the press contact",
+    "text": "Press Contact"
+  },
+  "titleSustainableProjects": {
+    "description": "Text for title of the Sustainable Projects",
+    "text": "Sustainable Projects"
+  },
+  "contactsTitle": {
+    "description": "Text for title of the contacts popup",
+    "text": "Contacts"
+  },
+  "countryTitle": {
+    "description": "Text for title of the select country",
+    "text": "Country"
+  },
+  "phone": {
+    "description": "Text for title of the label phone",
+    "text": "Phone"
+  },
+  "fax": {
+    "description": "Text for title of the label fax",
+    "text": "Fax"
+  },
+  "titleMr": {
+    "description": "Text for title of the Mr",
+    "text": "Mr"
+  },
+  "titleMrs": {
+    "description": "Text for title of the Mrs",
+    "text": "Mrs"
+  },
+  "placeholderName": {
+    "description": "Text for title of the placeholder of the first name",
+    "text": "First Name"
+  },
+  "placeholderSurname": {
+    "description": "Text for title of the placeholder of the last name",
+    "text": "Last Name"
+  },
+  "placeholderCompany": {
+    "description": "Text for title of the placeholder of the company",
+    "text": "Company"
+  },
+  "placeholderCity": {
+    "description": "Text for title of the placeholder of the city",
+    "text": "City"
+  },
+  "placeholderAddress": {
+    "description": "Text for title of the placeholder of the address",
+    "text": "Address"
+  },
+  "placeholderMessage": {
+    "description": "Text for title of the placeholder of the message",
+    "text": "Your message"
+  },
+  "placeholderMaterial": {
+    "description": "Text for title of the placeholder of the material group",
+    "text": "Material Group"
+  },
+  "placeholderSoftwareUpdate": {
+    "description": "Text for title of the placeholder of the checkbox for subscribe software update",
+    "text": "Please inform me of future software updates"
+  },
+  "textUploadFile": {
+    "description": "Text for title of the button's upload file",
+    "text": "Upload File"
+  },
+  "textSubmit": {
+    "description": "Text for title of the submit button",
+    "text": "Submit"
+  },
+  "textSubmitNotes": {
+    "description": "Text for title of the submit notes",
+    "text": "We treat your data as confidential. Read our"
+  },
+  "thanksTitle": {
+    "description": "Text for title of the thanks page",
+    "text": "Thank you!"
+  },
+  "thanksTextContacts": {
+    "description": "Text for thanks page of the contacts",
+    "text": "Your message has been sent. One of our representatives will get back to you shortly."
+  },
+  "calculatorButton": {
+    "description": "Button for calculator",
+    "text": "Calculate"
+  },
+  "calculatorButtonAdd": {
+    "description": "Text for calculator button add",
+    "text": "Add another module"
+  },
+  "textContactEshop": {
+    "description": "Text for eshop page of the contacts",
+    "text": "To request an eShop account, please visit our"
+  },
+  "textContactViaEmail": {
+    "description": "Text for contact via email of the contacts",
+    "text": "or contact us via email:"
+  },
+  "textEshop": {
+    "description": "Text for eshop",
+    "text": "eShop"
+  },
+  "thanksTextNewsletter": {
+    "description": "Text for thanks page of the newsletter",
+    "text": "You are now subscribed to the Tridonic Newsletter."
+  },
+  "thanksTextGetAccess": {
+    "description": "Text for thanks page of the get access",
+    "text": "We have sent the download link to"
+  }
+}

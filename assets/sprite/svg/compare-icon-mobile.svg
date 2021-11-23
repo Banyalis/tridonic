@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="M:-Tile:-Product" transform="translate(-130.000000, -10.000000)" fill="#B6B5C1">
+            <g id="Tile:-Product" transform="translate(2.000000, 2.000000)">
+                <path d="M138,8 C143.522847,8 148,12.4771525 148,18 C148,23.5228475 143.522847,28 138,28 C132.477153,28 128,23.5228475 128,18 C128,12.4771525 132.477153,8 138,8 Z M138,9 C133.029437,9 129,13.0294373 129,18 C129,22.9705627 133.029437,27 138,27 C142.970563,27 147,22.9705627 147,18 C147,13.0294373 142.970563,9 138,9 Z M140.595766,18 L143,20.5 L140.595766,23 L140,22.3805033 L141.328,21 L135,21 L135,20 L141.328,20 L140,18.6194967 L140.595766,18 Z M135.404234,13 L136,13.6194967 L134.672,15 L141,15 L141,16 L134.672,16 L136,17.3805033 L135.404234,18 L133,15.5 L135.404234,13 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

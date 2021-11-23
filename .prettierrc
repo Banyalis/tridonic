@@ -1,0 +1,14 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "none",
+  "useTabs": false,
+  "overrides": [
+    {
+      "files": ["*.js", "*.vue"],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
+}

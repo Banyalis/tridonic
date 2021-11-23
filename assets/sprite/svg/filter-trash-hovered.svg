@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="19px" viewBox="0 0 16 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon: Delete</title>
+    <g id="DESKTOP" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.-PRODUCTS-/-1.0-LED-DRIVERS---3-FILTERS" transform="translate(-662.000000, -921.000000)">
+            <g id="Filters" transform="translate(500.000000, 80.000000)">
+                <g id="Filters---Expanded" transform="translate(0.000000, 340.000000)">
+                    <g id="Module" transform="translate(0.000000, 480.000000)">
+                        <g id="Group" transform="translate(162.000000, 21.000000)">
+                            <rect id="Rectangle" stroke="#29BDFF" stroke-width="2" transform="translate(8.000000, 3.000000) scale(1, -1) translate(-8.000000, -3.000000) " x="5" y="1" width="6" height="4" rx="2"></rect>
+                            <rect id="Rectangle" fill="#29BDFF" x="6" y="7" width="1" height="7"></rect>
+                            <rect id="Rectangle" fill="#29BDFF" x="9" y="7" width="1" height="7"></rect>
+                            <rect id="Rectangle" fill="#29BDFF" x="0" y="4" width="16" height="2"></rect>
+                            <path d="M3.00256348,7.06326956 L3.00256348,16.0892792 C3.02250163,16.7376275 3.35498047,17.0618016 4,17.0618016 C4.64501953,17.0618016 7.3116862,17.0618016 12,17.0618016 C12.6719564,17.0879886 13.0079346,16.7638144 13.0079346,16.0892792 C13.0079346,15.414744 13.0079346,12.4060741 13.0079346,7.06326956" id="Path-2" stroke="#29BDFF" stroke-width="2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
